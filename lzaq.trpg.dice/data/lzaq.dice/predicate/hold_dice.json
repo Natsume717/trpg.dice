@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "inventory.*": {
+            "items": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  723901
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "hotbar.*": {
+            "items": "minecraft:carrot_on_a_stick",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  723901
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

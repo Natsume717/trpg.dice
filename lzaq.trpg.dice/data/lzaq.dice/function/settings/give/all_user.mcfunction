@@ -1,0 +1,2 @@
+execute as @a[predicate=lzaq.dice:hold_dice] if entity @s run tellraw @s "あなたは既に「変幻自在のダイス」を所持しています"
+execute as @a[predicate=!lzaq.dice:hold_dice] if entity @s run give @s minecraft:carrot_on_a_stick[minecraft:custom_model_data={"floats":[723901.0]},custom_name=[{"text":"変幻自在のダイス","italic":false}],lore=[[{"text":"幅広い範囲に対応した","italic":false}],[{"text":"不思議なダイス","italic":false}],[{"text":"【右クリックで使用可能】","italic":false}]]]

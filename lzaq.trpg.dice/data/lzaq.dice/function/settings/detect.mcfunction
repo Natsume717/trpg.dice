@@ -1,0 +1,2 @@
+execute as @a[scores={.lzaq.used_dice=1..},predicate=lzaq.dice:used_dice] if entity @s run function lzaq.dice:settings/
+execute as @a[scores={.lzaq.used_dice=1..}] if entity @s run scoreboard players set @s .lzaq.used_dice 0

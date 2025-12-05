@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 723901.0,
+        "model": {
+          "type": "model",
+          "model": "lzaq:item/dice"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "item/carrot_on_a_stick"
+    }
+    }
+}
